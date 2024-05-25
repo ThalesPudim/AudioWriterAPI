@@ -1,4 +1,4 @@
-![Google Image](venv/Scripts/static/img/Google-API.webp)
+![Google Image](Scripts/static/img/Google-API.webp)
 
 
 # Audio Writter - API
@@ -33,19 +33,19 @@ Press CTRL+C to quit
 
 <span style="font-size:24px;">Home page</span>
 
-![Home Image](venv/Scripts/static/img/Home.PNG)
+![Home Image](Scripts/static/img/Home.PNG)
 
 Here you can see that the interface is very simple, you just need to provide the audio file, which is in one of the following formats ".wav, .mp3, .ogg, .opus".
 
 ***
 
-![Home Image](venv/Scripts/static/img/Upload.PNG)
+![Home Image](Scripts/static/img/Upload.PNG)
 
 After adding the selected audio click on the "Submit" button and the code will do the rest.
 
 ***
 
-![Home Image](venv/Scripts/static/img/SucessPage.PNG)
+![Home Image](Scripts/static/img/SucessPage.PNG)
 
 On the last page, the text translated by the audio is written on the panel.
 
@@ -58,4 +58,4 @@ And another button to return to the page, if you want to perform another convers
 
 **For everyone who made it this far, thank you for visiting. I hope you enjoyed the code.**
 
-![FaloutBoy](venv/Scripts/static/img/FalloutBoy.webp)
+![FaloutBoy](Scripts/static/img/FalloutBoy.webp)
