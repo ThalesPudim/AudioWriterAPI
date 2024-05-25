@@ -54,6 +54,11 @@ Below you can see the options for installing the .txt with the conversion.
 And another button to return to the page, if you want to perform another conversion.
 
 
+# Authors
+
+1. <span style="font-size:24px;">Thales</span>
+
+
 # Special thanks
 
 **For everyone who made it this far, thank you for visiting. I hope you enjoyed the code.**
