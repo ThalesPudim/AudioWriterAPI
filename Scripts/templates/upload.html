@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Upload de Arquivos</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <div class="upload">
+        <img src="{{ url_for('static', filename='img/New4KImage.jpeg') }}" alt="upload image" class="upload__img">
+
+        <form class="upload__form" action="/" method="post" enctype="multipart/form-data">
+            <h1 class="upload__title">Upload Audio</h1>
+
+            <div class="upload__content">
+                <div class="upload__box">
+                    <i class="ri-file-upload-line upload__icon"></i>
+
+                    <div class="upload__box-input">
+                        <input type="file" required class="upload__input" name="file" accept=".wav, .mp3, .ogg, .opus" id="file">
+                        <label for="file" class="upload__label">Add File</label>
+                    </div>
+                </div>
+            </div>
+
+            <button type="submit" class="upload__button">Submit</button>
+
+            <div id="result" class="upload__result"></div>
+        </form>
+    </div>
+</body>
+</html>

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transcription Results</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <div class="upload">
+        <img src="{{ url_for('static', filename='img/New4KImage.jpeg') }}" alt="upload image" class="upload__img">
+
+        <form class="upload__form">
+            <h1 class="upload__title">Transcription Results</h1>
+
+            <div class="upload__content">
+                <textarea id="transcription" class="upload__textarea" readonly>{{ transcription_content }}</textarea>
+            </div>
+
+            <a href="{{ url_for('download_file', filename='transcription.txt') }}" class="upload__button">Download Transcription</a>
+
+            <a href="{{ url_for('upload_file') }}" class="upload__button">Back</a>
+
+            <div id="result" class="upload__result"></div>
+        </form>
+    </div>
+</body>
+</html>
