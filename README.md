@@ -2,7 +2,7 @@
 
 
 # Audio Writter - API
-This app is a flask app, based on my mind. Created and developed in Visual Studio Code! :D
+This code is a flask app, based on my mind. Created and developed in Visual Studio Code! :D
 
 ## Technology
 
