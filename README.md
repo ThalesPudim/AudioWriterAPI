@@ -24,7 +24,8 @@ flask run
 
 ```bash
 * Debug mode: off
-WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead. * Running on http://127.0.0.1:5000
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+* Running on http://127.0.0.1:5000
 Press CTRL+C to quit
 ```
 <span style="font-size:24px;">Once this is done, you just need to open Google and paste the IP that was provided</span>
