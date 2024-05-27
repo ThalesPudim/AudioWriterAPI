@@ -12,6 +12,13 @@ This code is a flask app, based on my mind. Created and developed in Visual Stud
 1. GitHub
 2. Google Cloud API
 
+# Important
+
+If you really want to use this code, you will need a unique Key on Google Cloud
+
+And for this you will need to install the .json of your Text-to-Speech API
+
+I recommend researching the internet to better perform this installation function. Thanks!
 
 # Project setup 
 <span style="font-size:24px;">After cloning the repository</span>
@@ -29,13 +36,6 @@ WARNING: This is a development server. Do not use it in a production deployment.
 Press CTRL+C to quit
 ```
 <span style="font-size:24px;">Once this is done, you just need to open Google and paste the IP that was provided</span>
-# Important
-
-If you really want to use this code, you will need a unique Key on Google Cloud
-
-And for this you will need to install the .json of your Text-to-Speech API
-
-I recommend researching the internet to better perform this installation function. Thanks!
 
 # How to Use
 
