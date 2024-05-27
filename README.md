@@ -16,7 +16,7 @@ This code is a flask app, based on my mind. Created and developed in Visual Stud
 
 If you really want to use this code, you will need a unique Key on Google Cloud
 
-And for this you will need to install the .json of your Text-to-Speech API
+And for this you will need to install the .json of your Speech-to-Text API
 
 I recommend researching the internet to better perform this installation function. Thanks!
 
