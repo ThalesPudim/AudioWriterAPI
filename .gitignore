@@ -6,5 +6,6 @@ __pycache__/
 APIkey/
 
 # Uploaded files
+Lib/site-packages
 uploads/
 output/
